@@ -9,6 +9,7 @@ BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/cepheus
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_NETWORK := true
 
 # Architecture
 TARGET_ARCH := arm64
